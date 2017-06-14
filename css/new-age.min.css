@@ -1,8 +1,3 @@
-/*!
- * Start Bootstrap - New Age v3.3.7 (http://startbootstrap.com/template-overviews/new-age)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
 .carousel img {
     min-width: 100%;
 }
@@ -482,9 +477,11 @@ footer {
             }
 
 .bg-primary {
-    background: #fdcc52;
+ /*   background: #fdcc52;
     background: -webkit-linear-gradient(#fdcc52, #fdc539);
-    background: linear-gradient(#fdcc52, #fdc539);
+    background: linear-gradient(#fdcc52, #fdc539);*/
+	background-image: url('../img/AC4Banner2.jpg');
+	background-size: cover;
 }
 
 .text-primary {
