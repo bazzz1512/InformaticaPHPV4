@@ -476,7 +476,6 @@ footer {
                 text-decoration: none;
             }
 
-<<<<<<< HEAD
 .bg-assasinscreed {
     /*   background: #fdcc52;
     background: -webkit-linear-gradient(#fdcc52, #fdc539);
@@ -491,14 +490,14 @@ footer {
     background: linear-gradient(#fdcc52, #fdc539);*/
     background-image: url('../img/CsgoBanner3.jpg');
     background-size: cover;
-=======
-.bg-primary {
- /*   background: #fdcc52;
+}
+
+.bg-callofduty {
+    /*   background: #fdcc52;
     background: -webkit-linear-gradient(#fdcc52, #fdc539);
     background: linear-gradient(#fdcc52, #fdc539);*/
-	background-image: url('../img/AC4Banner2.jpg');
-	background-size: cover;
->>>>>>> origin/master
+    background-image: url('../img/CallOfDutyBanner.jpg');
+    background-size: cover;
 }
 
 .text-primary {
