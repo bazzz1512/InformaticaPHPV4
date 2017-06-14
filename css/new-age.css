@@ -1,8 +1,3 @@
-/*!
- * Start Bootstrap - New Age v3.3.7 (http://startbootstrap.com/template-overviews/new-age)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
 .carousel img {
     min-width: 100%;
 }
@@ -269,38 +264,38 @@ section {
         font-size: 50px;
     }
 
-    section.download {
+    section.games {
         padding: 150px 0;
         position: relative;
     }
 
-        section.download h2 {
+        section.games h2 {
             margin-top: 0;
             font-size: 50px;
         }
 
-        section.download .badges .badge-link {
+        section.games .badges .badge-link {
             display: block;
             margin-bottom: 25px;
         }
 
-            section.download .badges .badge-link:last-child {
+            section.games .badges .badge-link:last-child {
                 margin-bottom: 0;
             }
 
-            section.download .badges .badge-link img {
+            section.games .badges .badge-link img {
                 height: 60px;
             }
 
 @media (min-width: 768px) {
-    section.download .badges .badge-link {
+    section.games .badges .badge-link {
         display: inline-block;
         margin-bottom: 0;
     }
 }
 
 @media (min-width: 768px) {
-    section.download h2 {
+    section.games h2 {
         font-size: 70px;
     }
 }
@@ -481,10 +476,20 @@ footer {
                 text-decoration: none;
             }
 
-.bg-primary {
-    background: #fdcc52;
+.bg-assasinscreed {
+    /*   background: #fdcc52;
     background: -webkit-linear-gradient(#fdcc52, #fdc539);
-    background: linear-gradient(#fdcc52, #fdc539);
+    background: linear-gradient(#fdcc52, #fdc539);*/
+    background-image: url('../img/AC4Banner2.jpg');
+    background-size: cover;
+}
+
+.bg-counterstrike {
+    /*   background: #fdcc52;
+    background: -webkit-linear-gradient(#fdcc52, #fdc539);
+    background: linear-gradient(#fdcc52, #fdc539);*/
+    background-image: url('../img/CsgoBanner3.jpg');
+    background-size: cover;
 }
 
 .text-primary {
