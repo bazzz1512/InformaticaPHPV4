@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 session_start();
  if ($_SESSION['ingelogd'] != true){
  	 header ('Location: inlog.php');
@@ -36,21 +36,19 @@ session_start();
 <body id="page-top">
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">SeFrMa Webshop</a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a class="page-scroll" href="#Assasinscreed">Aanbod</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#features">Bestellen</a>
+                        <a class="page-scroll" href="#kopen">Bestellen</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Over de makers</a>
@@ -60,9 +58,7 @@ session_start();
                     </li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
     </nav>
     <header>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -112,7 +108,6 @@ session_start();
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        <!-- /.carousel -->
     </header>
     <section id="Assasinscreed" class="games textcolorwhite bg-assasinscreed text-center">
         <div class="container">
@@ -122,15 +117,15 @@ session_start();
             <div class="row">
                 <div class="col-md-5">
                     <a href="#kopen" class="page-scroll"><img src="img/AC4BlackFlagGameResized.png" alt="ACGame1"></a>
-                    <h1> Assasins Creed</h1>
+                    <h1> Assassin's Creed IV: Black Flag</h1>
                     <h2> &euro; 10</h2>
                     <p>Assassin's Creed IV: Black Flag is a 2013 action-adventure game, and the sixth main installment in the Assassin's Creed series. A sequel to 2012's Assassin's Creed III, the game has the player take on the role of an Abstergo Entertainment research analyst as they explore the story of Edward Kenway – father to Haytham Kenway, grandfather to Ratonhnhaké:ton, and an ancestor of Desmond Miles.Assassin's Creed IV: Black Flag is set primarily on and around the islands in the Caribbean Sea during the Golden Age of Piracy in the early 18th century, with the three major cities consisting of Havana, Nassau, and Kingston.</p>
                 </div>
                 <div class="col-md-5 col-md-offset-2">
                     <a href="#kopen" class="page-scroll"><img src="img/ResizedDeGoedeAC.jpg" alt="ACGame1"></a>
-                    <h1>Assasins Creed</h1>
+                    <h1>Assassin's Creed Syndicate</h1>
                     <h2> &euro; 20</h2>
-                    <p>Assassin's Creed IV: Black Flag is a 2013 action-adventure game, and the sixth main installment in the Assassin's Creed series. A sequel to 2012's Assassin's Creed III, the game has the player take on the role of an Abstergo Entertainment research analyst as they explore the story of Edward Kenway – father to Haytham Kenway, grandfather to Ratonhnhaké:ton, and an ancestor of Desmond Miles.Assassin's Creed IV: Black Flag is set primarily on and around the islands in the Caribbean Sea during the Golden Age of Piracy in the early 18th century, with the three major cities consisting of Havana, Nassau, and Kingston.</p>
+                    <p>Assassin's Creed Syndicate is an action-adventure stealth video game developed by Ubisoft Quebec and published by Ubisoft. It was released on October 23, 2015, for the PlayStation 4 and Xbox One, and on November 19, 2015, for Microsoft Windows. It is the ninth major installment in the Assassin's Creed series, and the successor to 2014's Assassin's Creed Unity. The plot is set in a fictional history of real-world events and follows the centuries-old struggle between the Assassins, who fight for peace with liberty, and the Templars, who desire peace through order. The story is set in Victorian era London and follows twin assassins Jacob and Evie Frye as they navigate the corridors of organized crime, and take back the city from Templar control. The open world design lets players freely roam London. The game is played from a third-person view and its world is navigated on foot or by carriage. The game introduces new traveling systems and refined combat and stealth mechanics. Players control the two lead protagonists—twins Jacob and Evie Frye—throughout the game's story, switching between them both during and outside of missions. Unlike its direct predecessors, Syndicate does not feature any multiplayer gameplay.</p>
                 </div>
                 <div class="col-md-4 col-md-offset-4">
                     <p><a class="btn btn-lg btn-primary page-scroll" href="#kopen" role="button">Bestel!</a></p>
