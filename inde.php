@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 session_start();
  if ($_SESSION['ingelogd'] != true){
  	 header ('Location: inlog.php');
@@ -56,7 +56,7 @@ session_start();
                         <a class="page-scroll" href="#contact">Over de makers</a>
                     </li>
                     <li>
-                        <a class="" href="inlog.html">Uitloggen</a>
+                        <a class="" href="uitloggen.php">Uitloggen</a>
                     </li>
                 </ul>
             </div>
