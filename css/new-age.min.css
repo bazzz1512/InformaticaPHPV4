@@ -260,6 +260,20 @@ header {
     }
 }
 
+.textcolorwhite {
+    Color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+.textcolorred {
+    Color: black;
+    -webkit-text-fill-color: red;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: red;
+}
+
 section {
     padding: 100px 0;
 }
@@ -540,16 +554,6 @@ footer {
     background: #222222;
 }
 
-::selection {
-    color: white;
-    text-shadow: none;
-    background: #222222;
-}
-
-img::selection {
-    color: white;
-    background: transparent;
-}
 
 img::-moz-selection {
     color: white;

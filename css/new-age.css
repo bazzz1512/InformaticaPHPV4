@@ -259,6 +259,19 @@ header {
         font-size: 50px;
     }
 }
+.textcolorwhite {
+    Color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+.textcolorred {
+    Color: black;
+    -webkit-text-fill-color: red;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: red;
+}
 
 section {
     padding: 100px 0;
@@ -271,6 +284,7 @@ section {
     section.games {
         padding: 150px 0;
         position: relative;
+
     }
 
         section.games h2 {
@@ -403,7 +417,6 @@ section.cta .overlay {
 
 section.contact {
     text-align: center;
-	
 }
 
     section.contact p {
@@ -411,9 +424,9 @@ section.contact {
         margin-bottom: 25px;
     }
 
-        section.contact h2 i {
-            color: #dd4b39;
-        }
+    section.contact h2 i {
+        color: #dd4b39;
+    }
 
     section.contact ul.list-social {
         margin-bottom: 0;
@@ -541,16 +554,6 @@ footer {
     background: #222222;
 }
 
-::selection {
-    color: white;
-    text-shadow: none;
-    background: #222222;
-}
-
-img::selection {
-    color: white;
-    background: transparent;
-}
 
 img::-moz-selection {
     color: white;
